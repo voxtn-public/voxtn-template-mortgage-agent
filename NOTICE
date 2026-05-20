@@ -1,0 +1,19 @@
+NOTICE
+======
+
+This software is a derivative of Hermes Agent (https://github.com/NousResearch/hermes-agent),
+Copyright (c) 2024-2026 Nous Research, licensed under the MIT License.
+
+VoxTN Additions (Vox Agents, 2026):
+  - Per-tenant container isolation (one Docker network + bind-mount per customer)
+  - Sovereign substrate via voxtn-gateway (https://gateway.voxtn.com) — egress-allowlisted
+    LLM inference, with no direct customer-to-external-provider calls
+  - Tamil multilingual support (gateway routes Tamil-tagged traffic to Gemma 4 / Sarvam variants)
+  - Template-based per-customer agent configuration (this repository is one of four such templates)
+
+Vox Agents is an independent product not endorsed by, affiliated with, or
+certified by Nous Research. No use of "Hermes" or Nous Research trademarks
+appears in customer-facing surfaces; the name appears only in attribution
+files such as this one.
+
+The full text of the MIT License is included in the LICENSE file.
